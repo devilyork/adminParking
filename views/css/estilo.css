@@ -1,0 +1,85 @@
+div.vlogin{
+    padding-top: 200px;
+    margin-top: 200px;
+
+}
+h5.pie{
+    color: #0099ff;
+    text-align: right;
+}
+.header {
+    background-size: cover;
+    min-height: 100vh;
+}
+.menup{
+    padding-left: 3em;
+}
+body{
+    background-color: lightgray;
+}
+
+.logomenu {
+    width: 12%;
+    height:auto;
+    position: relative;
+    float: right;
+    margin-right: 5em;
+    
+}
+
+.dropdown-item:hover {
+    background-color: #0dcaf0;
+}
+
+.nav-item {
+    font-weight: bold;
+    border: 1px;
+}
+
+.loginanimacion {
+    animation-duration: 3s;
+    animation-name: fade-in-down;
+  }
+  
+  @keyframes fade-in-down {
+    from {
+      opacity: 0%;
+      -webkit-transform: translateY(-800px);
+      -moz-transform: translateY(-800px);
+      -o-transform: translateY(-800px);
+      transform:translateY(-800px);
+    }
+  
+    to {
+      opacity: 100%;
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -o-transform: translateY(0px);
+      transform:translateY(0px);
+    }
+  }
+
+.alertini {
+    animation-duration: 3s;
+    animation-name: alertinicio;
+    animation-delay: 3s;
+}
+
+@keyframes alertinicio {
+    from {
+        opacity: 0%;
+        -webkit-transform: translateY(-800px);
+        -moz-transform: translateY(-800px);
+        -o-transform: translateY(-800px);
+        transform:translateY(-800px);
+      }
+    
+      to {
+        opacity: 100%;
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -o-transform: translateY(0px);
+        transform:translateY(0px);
+      }
+    }
+
