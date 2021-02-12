@@ -82,4 +82,14 @@ body{
         transform:translateY(0px);
       }
     }
+.btn-salir {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.55);
+  
+}
 
+.btn-salir:hover {
+  font-weight: bold;
+  color: #ff3333 ;
+  text-shadow: 1px 1px 2px black;
+}
